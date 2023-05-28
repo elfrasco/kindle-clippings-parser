@@ -82,7 +82,7 @@ def save_highlights(title: str, book_highlights: List):
         hText, hType, hEnd = highlight
         hText = hText.strip() + '\n'
         if hType == 'highlight':
-            md_file.write(f'{HIGHLIGHT_HEADER}{highlight_ind}\n')
+            md_file.write(f'\n')
             md_file.write(hText)
             highlight_ind += 1
         elif hType == 'note':
