@@ -3,3 +3,4 @@ My Clippings.txt
 
 # I don't want to accidentally upload any of my own highlights, so:
 *.md
+__pycache__/clippingsParserHelpers.cpython-311.pyc
